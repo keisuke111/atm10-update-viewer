@@ -1,0 +1,2364 @@
+{
+  "8.2": {
+    "sourceHash": "b899fcac5bc0f5c3e24454c2b4b32e0fc79e475e9fc5945d997c45fad92aa58c",
+    "title": "便利なレシピの追加と、ゲームバランスの調整",
+    "summary": "圧縮ガラスの精錬やDragon Heartの入手方法が追加。あわせて、アイテム増殖や進行の抜け道への対策が入りました。Create: Copycats+を含む3つのModが加わっています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "圧縮ガラスを作る精錬レシピを追加。圧縮した素材の加工が便利になります。",
+        "evidence": "Add compressed glass smelting recipes for convenience (#4411)"
+      },
+      {
+        "category": "feature",
+        "text": "Hostile Neural Networksのドロップに、Draconic EvolutionのDragon Heartを追加。",
+        "evidence": "Add Draconic Dragon Heart Drop to Hostile Neural Networks (#4406)"
+      },
+      {
+        "category": "fix",
+        "text": "アイテム増殖を防ぐため、Tool Beltにバンドルを入れられなくなりました。",
+        "evidence": "Block bundles in Tool Belt to prevent item duplication (#4403)"
+      },
+      {
+        "category": "balance",
+        "text": "Neo Vitaeを使った進行段階の飛ばしを防止し、無効な素材連携を削除。",
+        "evidence": "Prevent progression bypasses and remove invalid Neo Vitae material integrations (#4370)"
+      },
+      {
+        "category": "balance",
+        "text": "Glyph of Nullify Defenseを無効化し、レシピビューアーからも非表示に。",
+        "evidence": "Disable Glyph of Nullify Defense and hide it from recipe viewers (#4372)"
+      },
+      {
+        "category": "balance",
+        "text": "Shinyモブをスポナーで利用できないように変更。",
+        "evidence": "Prevent Shiny mobs from being used in spawners (#4405)"
+      },
+      {
+        "category": "balance",
+        "text": "Neo VitaeのImprisonment Arrayで、一部のモブを捕獲できないように変更。",
+        "evidence": "Blacklist Neo Vitae Imprisonment Array from certain mobs (#4382)"
+      },
+      {
+        "category": "fix",
+        "text": "ピクシーによるアイテムの盗難を無効化。",
+        "evidence": "Pixie No Pixing: Disable Pixie Item Theft (#4385)"
+      },
+      {
+        "category": "fix",
+        "text": "Mekanism: More Machineの重複した銀の加工レシピを削除。",
+        "evidence": "Remove duplicate silver processing recipes from Mekanism: More Machine (#4416)"
+      },
+      {
+        "category": "other",
+        "text": "トルコ語のクエスト翻訳を改善。日本語翻訳の変更ではありません。",
+        "evidence": "fix: improve Turkish quest localization (#4362)"
+      }
+    ]
+  },
+  "8.1": {
+    "sourceHash": "29b277d3ae30cf03d22e9831ba41278514dea5818cd87c60548ca42f9ab92c46",
+    "title": "Ad Astraが登場。クエストとMod連携も改善",
+    "summary": "Ad AstraやLogisticsNetworksなど8つのModを追加。クエストの必要数や説明文を調整し、エンチャントを妨げる問題や耐久値の抜け道を修正しています。",
+    "items": [
+      {
+        "category": "fix",
+        "text": "Feral Flareの見えない光源がエンチャントを妨げないように修正。",
+        "evidence": "Prevent Feral Flare Invisible Lights from blocking Enchanting (#4360)"
+      },
+      {
+        "category": "balance",
+        "text": "Mahou TsukaiのStrengtheningで電極の耐久値を無限にできないように変更。",
+        "evidence": "Prevent infinite electrode durability via Mahou Tsukai Strengthening (#4349)"
+      },
+      {
+        "category": "balance",
+        "text": "Neo Vitaeを使い、ATM鉱石の進行段階を飛ばせる可能性に対処。",
+        "evidence": "Prevent Potential ATM Ore Progression Bypasses Through Neo Vitae (#4350)"
+      },
+      {
+        "category": "balance",
+        "text": "一部の注入に関するクエストで、Glowing Hellshelfの必要数を12個から13個に変更。",
+        "evidence": "Adjusted all quests involving Glowing Hellshelves that use 12 of them for certain infusions to use 13 of them instead. See https://github.com/AllTheMods/ATM-10-a/issues/40 for why I made this decision."
+      },
+      {
+        "category": "balance",
+        "text": "Hellfire Forge用のPetty Spiritus Gemの要求を緩和。",
+        "evidence": "- Toned down the Petty Spiritus Gem requirement for the Hellfire Forge"
+      },
+      {
+        "category": "fix",
+        "text": "Ad Astraの互換レシピを修正。",
+        "evidence": "fix(ad_astra): compat recipes"
+      },
+      {
+        "category": "other",
+        "text": "クエストの誤字を修正。",
+        "evidence": "Fix #4322: Some quest typos (#4323)"
+      }
+    ]
+  },
+  "8.0": {
+    "sourceHash": "deb1141f88541239e192557d7919157e9b128bad39f15ec558300e647a462150",
+    "title": "Neo Vitaeと新クエストを追加",
+    "summary": "Neo VitaeやAuroralなど4つのModを追加し、Reap Modを削除。ATM Starの素材やドリルの出力、クエスト報酬にも変更が入っています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Neo Vitaeのクエストを追加。",
+        "evidence": "PAINT THE TOWN RED: Added quests for Neo Vitae (#4302)"
+      },
+      {
+        "category": "balance",
+        "text": "ATM Starの素材にNeo Vitaeのアイテムを追加。",
+        "evidence": "feat: add neovitae item to star"
+      },
+      {
+        "category": "balance",
+        "text": "ATMドリルから出る丸石とネザーラックの量を削減。",
+        "evidence": "Reduce cobblestone and netherrack output from the ATM drills (#4309)"
+      },
+      {
+        "category": "balance",
+        "text": "Ore HammerにEternal Stellaを適用できないように変更。",
+        "evidence": "* Blacklist Ore Hammers from Eternal Stella"
+      },
+      {
+        "category": "feature",
+        "text": "Bone KeyでTrial Vaultをリセットできるように変更。",
+        "evidence": "* Allow Bone Keys to reset Trial Vaults"
+      },
+      {
+        "category": "fix",
+        "text": "Spawner Upgrade Runeのクエストの経験値報酬を引き下げ。",
+        "evidence": "* Nerf XP Rewards for Spawner Upgrade Runes"
+      },
+      {
+        "category": "fix",
+        "text": "Expanded AEのターミナル内で並べ替えを無効化。",
+        "evidence": "Disallow sorting in Expanded AE terminals (#4320)"
+      },
+      {
+        "category": "other",
+        "text": "Eternal Starlightの削除は取り消されたことを、お知らせで訂正。",
+        "evidence": "* Correct News: removing Eternal Starlight was canceled"
+      }
+    ]
+  },
+  "7.3": {
+    "sourceHash": "fd536214a11aaaa7eb87b722a76acda9559d2d42c731f0a1480fc5692ee7bce4",
+    "title": "63件のMod更新とゲーム内容の調整",
+    "summary": "ATM10 7.3ではModを63件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "Not So Overdueのクエストを変更。",
+        "evidence": "Not So Overdue Quest Changes (#4253)"
+      },
+      {
+        "category": "other",
+        "text": "ATM11からApotheosisのクエスト変更を移植。",
+        "evidence": "Apotheosis Quest Backports from ATM11 (#4254)"
+      },
+      {
+        "category": "fix",
+        "text": "Getting Morgan クエストの誤字を修正。",
+        "evidence": "Fix #4243: Typos in Getting Morgan quest (#4257)"
+      },
+      {
+        "category": "fix",
+        "text": "Macaw's Holidays クエストの誤字を修正。",
+        "evidence": "Fix #4268: Typo in Macaw's Holidays quest (#4280)"
+      },
+      {
+        "category": "other",
+        "text": "「Chapter 3: Made Soul Lava Bee's クエスト a bit less confusing (I forgot to include this last time)」に関する変更。",
+        "evidence": "- Chapter 3: Made Soul Lava Bee's quest a bit less confusing (I forgot to include this last time)"
+      },
+      {
+        "category": "other",
+        "text": "「Eternal Starlight: Ported all クエスト changes from All The Mons」に関する変更。",
+        "evidence": "- Eternal Starlight: Ported all quest changes from All The Mons"
+      },
+      {
+        "category": "other",
+        "text": "「Backported almost all クエスト changes to match https://github.com/AllTheMods/ATM-11/pull/257」に関する変更。",
+        "evidence": "- Backported almost all quest changes to match https://github.com/AllTheMods/ATM-11/pull/257"
+      },
+      {
+        "category": "fix",
+        "text": "ATM10L code nameを修正。",
+        "evidence": "* Fix ATM10L code name"
+      }
+    ]
+  },
+  "7.2": {
+    "sourceHash": "d1587f056150e4148189b2fc35bbf7c855bf6ab73d89b0c183b74e64df209516",
+    "title": "CodecUIとInvasive Optimizationsを追加",
+    "summary": "ATM10 7.2ではModを2件追加、Modを92件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "fix",
+        "text": "「Create TOML 設定s to Restore Oritech Settings (fix #4120)」に関する変更。",
+        "evidence": "Create TOML Configs to Restore Oritech Settings (fix #4120) (#4200)"
+      },
+      {
+        "category": "other",
+        "text": "Overdueのクエストを変更。",
+        "evidence": "Overdue Quest Changes (#4219)"
+      },
+      {
+        "category": "other",
+        "text": "クエスト説明文にOverdrive Module power usageを追記。",
+        "evidence": "Mention Overdrive Module power usage in quest description (#4235)"
+      },
+      {
+        "category": "fix",
+        "text": "conflicting レシピ in Oritech Foundryを修正。",
+        "evidence": "Resolve conflicting recipes in Oritech Foundry (#4240)"
+      },
+      {
+        "category": "other",
+        "text": "「Slight adjustment to Gem Case Infusion Setup クエスト」に関する変更。",
+        "evidence": "Slight adjustment to Gem Case Infusion Setup Quest (#4246)"
+      },
+      {
+        "category": "balance",
+        "text": "Scylla and Clawdianを強化し、Harbingerを弱体化。",
+        "evidence": "Scylla and Clawdian Buff + Harbinger Nerf (#4249)"
+      },
+      {
+        "category": "feature",
+        "text": "CA 設定 + apply new Themeを更新。",
+        "evidence": "Update CA config + apply new Theme"
+      },
+      {
+        "category": "other",
+        "text": "「Make TOML 設定 file」に関する変更。",
+        "evidence": "* Make TOML config file"
+      }
+    ]
+  },
+  "7.1": {
+    "sourceHash": "f2b98a66cf59db2a7828d4d357728dc9be05dfcc112b55296374f01f415b29fd",
+    "title": "IrisSearchとSable Companionを追加",
+    "summary": "ATM10 7.1ではModを2件追加、Modを142件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "balance",
+        "text": "quiver and IE toolbox from sophisticated stacking fixes #4158をブラックリストに追加。",
+        "evidence": "* Blacklist quiver and IE toolbox from sophisticated stacking fixes #4158"
+      },
+      {
+        "category": "other",
+        "text": "eternal_starlight.jsを更新。",
+        "evidence": "Update eternal_starlight.js"
+      },
+      {
+        "category": "feature",
+        "text": "missing depを追加。",
+        "evidence": "fix: add missing dep"
+      },
+      {
+        "category": "feature",
+        "text": "c:is_mushroom to c:mushroom biome tagを追加。",
+        "evidence": "fix: add c:is_mushroom to c:mushroom biome tag"
+      },
+      {
+        "category": "feature",
+        "text": "giant_mushroom to major structuresを追加。",
+        "evidence": "fix: add giant_mushroom to major structures"
+      },
+      {
+        "category": "feature",
+        "text": "schematicannon (entry point for exploit, re-enable at your own risk)を削除。",
+        "evidence": "fix: remove schematicannon (entry point for exploit, re-enable at your own risk)"
+      },
+      {
+        "category": "feature",
+        "text": "culinary generator to クエスト itemsを追加。",
+        "evidence": "fix: add culinary generator to quest items"
+      },
+      {
+        "category": "other",
+        "text": "「Aether Chapter」に関する変更。",
+        "evidence": "Aether Chapter (#4140)"
+      }
+    ]
+  },
+  "7.0": {
+    "sourceHash": "7531294c09a8ee23c21d6b327f8548baecf6e7e9b2cbcb64e0ba360af81459e3",
+    "title": "Better Advanced TooltipsとEnergy Meterを追加",
+    "summary": "ATM10 7.0ではModを5件追加、Modを134件更新、Modを5件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "fix",
+        "text": "Cataclysm 設定sを更新。",
+        "evidence": "fix: Update Cataclysm Configs (#4056)"
+      },
+      {
+        "category": "other",
+        "text": "apotheosis_2.snbtを更新。",
+        "evidence": "* Update apotheosis_2.snbt"
+      },
+      {
+        "category": "other",
+        "text": "報酬_table.snbtを更新。",
+        "evidence": "* Update reward_table.snbt"
+      },
+      {
+        "category": "other",
+        "text": "welcome.snbtを更新。",
+        "evidence": "* Update welcome.snbt"
+      },
+      {
+        "category": "other",
+        "text": "chapter.snbtを更新。",
+        "evidence": "* Update chapter.snbt"
+      },
+      {
+        "category": "other",
+        "text": "設定/ftbクエスト/クエスト/lang/fr_fr/chapter.snbtを更新。",
+        "evidence": "* Update config/ftbquests/quests/lang/fr_fr/chapter.snbt"
+      },
+      {
+        "category": "other",
+        "text": "設定/ftbクエスト/クエスト/lang/fr_fr/chapters/tips_and_tricks.snbtを更新。",
+        "evidence": "* Update config/ftbquests/quests/lang/fr_fr/chapters/tips_and_tricks.snbt"
+      },
+      {
+        "category": "other",
+        "text": "設定/ftbクエスト/クエスト/lang/fr_fr/chapters/apotheosis_2.snbtを更新。",
+        "evidence": "* Update config/ftbquests/quests/lang/fr_fr/chapters/apotheosis_2.snbt"
+      }
+    ]
+  },
+  "6.6": {
+    "sourceHash": "81b9958b44d19a8eadf35aa643e8beddef6c4db7afa3c736e0f80afff6a9beef",
+    "title": "4件のMod更新とゲーム内容の調整",
+    "summary": "ATM10 6.6ではModを4件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を4件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "Occultismを1.207.2から1.208.0へ更新。",
+        "evidence": "Occultism (1.207.2) -> (1.208.0)"
+      },
+      {
+        "category": "other",
+        "text": "Relicsを0.11.13から0.11.14へ更新。",
+        "evidence": "Relics (0.11.13) -> (0.11.14)"
+      },
+      {
+        "category": "other",
+        "text": "Sophisticated Coreを1.4.19から1.4.20へ更新。",
+        "evidence": "Sophisticated Core (1.4.19) -> (1.4.20)"
+      },
+      {
+        "category": "other",
+        "text": "Utilitarianを1.21.1-0.18.2から1.21.1-0.19.0へ更新。",
+        "evidence": "Utilitarian (1.21.1-0.18.2) -> (1.21.1-0.19.0)"
+      }
+    ]
+  },
+  "6.5": {
+    "sourceHash": "048742d0d32b77b66acd6e84febc386e6a4f1682f705b7eb8e3b307495bf5f23",
+    "title": "24件のMod更新とゲーム内容の調整",
+    "summary": "ATM10 6.5ではModを24件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "AllTheTweaksを2.9.1から2.9.2へ更新。",
+        "evidence": "AllTheTweaks (2.9.1) -> (2.9.2)"
+      },
+      {
+        "category": "other",
+        "text": "Ars Elemancyを1.15から1.16へ更新。",
+        "evidence": "Ars Elemancy (1.15) -> (1.16)"
+      },
+      {
+        "category": "other",
+        "text": "Artifactsを13.2.0から13.2.1へ更新。",
+        "evidence": "Artifacts (13.2.0) -> (13.2.1)"
+      },
+      {
+        "category": "other",
+        "text": "Cooking for Blockheadsを21.1.19から21.1.20へ更新。",
+        "evidence": "Cooking for Blockheads (21.1.19) -> (21.1.20)"
+      },
+      {
+        "category": "other",
+        "text": "Dungeon Crawlを2.3.15から2.3.17へ更新。",
+        "evidence": "Dungeon Crawl (2.3.15) -> (2.3.17)"
+      },
+      {
+        "category": "other",
+        "text": "Extended Industrializationを1.15.34-1.21.1から1.15.35-1.21.1へ更新。",
+        "evidence": "Extended Industrialization (1.15.34-1.21.1) -> (1.15.35-1.21.1)"
+      },
+      {
+        "category": "other",
+        "text": "FTB Questsを2101.1.23から2101.1.24へ更新。",
+        "evidence": "FTB Quests (2101.1.23) -> (2101.1.24)"
+      },
+      {
+        "category": "other",
+        "text": "FTB Teamsを2101.1.9から2101.1.10へ更新。",
+        "evidence": "FTB Teams (2101.1.9) -> (2101.1.10)"
+      }
+    ]
+  },
+  "6.4": {
+    "sourceHash": "deb4471832b18d5e53610168adabe84ce97c7333d19df3ec84d6f0da84ff5531",
+    "title": "Iron's Patreon Libraryを追加",
+    "summary": "ATM10 6.4ではModを1件追加、Modを18件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Iron's Patreon Libraryを追加。",
+        "evidence": "Iron's Patreon Library (1.21.1-1.0.1)"
+      },
+      {
+        "category": "other",
+        "text": "AlmostUnifiedを1.21.1-1.3.0から1.21.1-1.4.1へ更新。",
+        "evidence": "AlmostUnified (1.21.1-1.3.0) -> (1.21.1-1.4.1)"
+      },
+      {
+        "category": "other",
+        "text": "Cable Tiersを1.21.1-0.6.10から1.21.1-0.6.11へ更新。",
+        "evidence": "Cable Tiers (1.21.1-0.6.10) -> (1.21.1-0.6.11)"
+      },
+      {
+        "category": "other",
+        "text": "Cooking for Blockheadsを21.1.18から21.1.19へ更新。",
+        "evidence": "Cooking for Blockheads (21.1.18) -> (21.1.19)"
+      },
+      {
+        "category": "other",
+        "text": "ExtendedAEを1.21-2.2.30-neoforgeから1.21-2.2.31-neoforgeへ更新。",
+        "evidence": "ExtendedAE (1.21-2.2.30-neoforge) -> (1.21-2.2.31-neoforge)"
+      },
+      {
+        "category": "other",
+        "text": "Mama's Herbs and Harvestを1.21.1-10から1.21.1-11へ更新。",
+        "evidence": "Mama's Herbs and Harvest (1.21.1-10) -> (1.21.1-11)"
+      },
+      {
+        "category": "other",
+        "text": "Iron's Gems 'n Jewelryを1.21.1-1.6.0から1.21.1-1.6.1へ更新。",
+        "evidence": "Iron's Gems 'n Jewelry (1.21.1-1.6.0) -> (1.21.1-1.6.1)"
+      },
+      {
+        "category": "other",
+        "text": "Iron's Spells 'n Spellbooksを1.21.1-3.15.4から1.21.1-3.15.5へ更新。",
+        "evidence": "Iron's Spells 'n Spellbooks (1.21.1-3.15.4) -> (1.21.1-3.15.5)"
+      }
+    ]
+  },
+  "6.3": {
+    "sourceHash": "6337c93344b930b3d31be67e46f76cd55e8153ebd976b4c2eeb1132528571644",
+    "title": "51件のMod更新とゲーム内容の調整",
+    "summary": "ATM10 6.3ではModを51件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "Advanced AEを1.6.10-1.21.1から1.6.11-1.21.1へ更新。",
+        "evidence": "Advanced AE (1.6.10-1.21.1) -> (1.6.11-1.21.1)"
+      },
+      {
+        "category": "other",
+        "text": "Advanced Peripheralsを0.7.60bから0.7.61bへ更新。",
+        "evidence": "Advanced Peripherals (0.7.60b) -> (0.7.61b)"
+      },
+      {
+        "category": "other",
+        "text": "AllTheOresを3.1.8から3.2.0へ更新。",
+        "evidence": "AllTheOres (3.1.8) -> (3.2.0)"
+      },
+      {
+        "category": "other",
+        "text": "AppleSkinを3.0.8+mc1.21から3.0.9+mc1.21へ更新。",
+        "evidence": "AppleSkin (3.0.8+mc1.21) -> (3.0.9+mc1.21)"
+      },
+      {
+        "category": "other",
+        "text": "Ars Elementalを0.7.8.6から0.7.9_betaへ更新。",
+        "evidence": "Ars Elemental (0.7.8.6) -> (0.7.9_beta)"
+      },
+      {
+        "category": "other",
+        "text": "Byzantineを47.1から48へ更新。",
+        "evidence": "Byzantine (47.1) -> (48)"
+      },
+      {
+        "category": "other",
+        "text": "Cable Tiersを1.21.1-0.6.9から1.21.1-0.6.10へ更新。",
+        "evidence": "Cable Tiers (1.21.1-0.6.9) -> (1.21.1-0.6.10)"
+      },
+      {
+        "category": "other",
+        "text": "L_Ender's Cataclysm 1.21.1を3.24から3.26へ更新。",
+        "evidence": "L_Ender's Cataclysm 1.21.1 (3.24) -> (3.26)"
+      }
+    ]
+  },
+  "6.2": {
+    "sourceHash": "96ce9d6050450b30fc616364da6b151c46f118e3d65afc3b4159a03dc7dbddf1",
+    "title": "reliquified artifactsを追加",
+    "summary": "ATM10 6.2ではModを1件追加、Modを82件更新、Modを1件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "reliquified artifactsを追加。",
+        "evidence": "reliquified_artifacts (1.0)"
+      },
+      {
+        "category": "other",
+        "text": "AE2 JEI Integrationを1.2.0から1.2.1へ更新。",
+        "evidence": "AE2 JEI Integration (1.2.0) -> (1.2.1)"
+      },
+      {
+        "category": "other",
+        "text": "Akashic Tomeを1.8-29から1.8-30へ更新。",
+        "evidence": "Akashic Tome (1.8-29) -> (1.8-30)"
+      },
+      {
+        "category": "other",
+        "text": "AllTheTweaksを2.8.5から2.9.1へ更新。",
+        "evidence": "AllTheTweaks (2.8.5) -> (2.9.1)"
+      },
+      {
+        "category": "other",
+        "text": "Aquaculture 2を2.7.18から2.7.19へ更新。",
+        "evidence": "Aquaculture 2 (2.7.18) -> (2.7.19)"
+      },
+      {
+        "category": "other",
+        "text": "Ars Elemancyを1.12から1.15へ更新。",
+        "evidence": "Ars Elemancy (1.12) -> (1.15)"
+      },
+      {
+        "category": "other",
+        "text": "Ars Nouveauを5.11.2から5.11.3へ更新。",
+        "evidence": "Ars Nouveau (5.11.2) -> (5.11.3)"
+      },
+      {
+        "category": "other",
+        "text": "Baubley Heart Canistersを1.21.1-1.3.1から1.21.1-1.4.0へ更新。",
+        "evidence": "Baubley Heart Canisters (1.21.1-1.3.1) -> (1.21.1-1.4.0)"
+      }
+    ]
+  },
+  "6.1": {
+    "sourceHash": "c77268b0e7dbad14c3dc042bc71b5bb0af5908265569284b866eaf54b46f5d2d",
+    "title": "45件のMod更新とゲーム内容の調整",
+    "summary": "ATM10 6.1ではModを45件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "Actually Additionsを1.3.24から1.3.25へ更新。",
+        "evidence": "Actually Additions (1.3.24) -> (1.3.25)"
+      },
+      {
+        "category": "other",
+        "text": "Advanced Peripheralsを0.7.59bから0.7.60bへ更新。",
+        "evidence": "Advanced Peripherals (0.7.59b) -> (0.7.60b)"
+      },
+      {
+        "category": "other",
+        "text": "AE2WTLibを19.4.0から19.4.1へ更新。",
+        "evidence": "AE2WTLib (19.4.0) -> (19.4.1)"
+      },
+      {
+        "category": "other",
+        "text": "AE2WTLib APIを19.4.0から19.4.1へ更新。",
+        "evidence": "AE2WTLib API (19.4.0) -> (19.4.1)"
+      },
+      {
+        "category": "other",
+        "text": "All The Leaksを1.1.6+1.21.1-neoforgeから1.1.7+1.21.1-neoforgeへ更新。",
+        "evidence": "All The Leaks (1.1.6+1.21.1-neoforge) -> (1.1.7+1.21.1-neoforge)"
+      },
+      {
+        "category": "other",
+        "text": "AllTheTweaksを2.8.4から2.8.5へ更新。",
+        "evidence": "AllTheTweaks (2.8.4) -> (2.8.5)"
+      },
+      {
+        "category": "other",
+        "text": "Apotheosisを8.5.1から8.5.2へ更新。",
+        "evidence": "Apotheosis (8.5.1) -> (8.5.2)"
+      },
+      {
+        "category": "other",
+        "text": "Ars Elementalを0.7.8.4から0.7.8.6へ更新。",
+        "evidence": "Ars Elemental (0.7.8.4) -> (0.7.8.6)"
+      }
+    ]
+  },
+  "6.0": {
+    "sourceHash": "e43f8a73135a1344f673587f49b3a78316d70cb6029a98acaa61b1ca4f8fe15c",
+    "title": "Hellish Trialsを追加",
+    "summary": "ATM10 6.0ではModを1件追加、Modを100件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "「Additional クエスト Work」に関する変更。",
+        "evidence": "Additional Quest Work (#3700)"
+      },
+      {
+        "category": "feature",
+        "text": "vanilla Mekanism armors / weapons to the Salvagerを追加。",
+        "evidence": "Add vanilla Mekanism armors / weapons to the Salvager (#3743)"
+      },
+      {
+        "category": "fix",
+        "text": "mod 問題 links for several modsを更新。",
+        "evidence": "Update mod issue links for several mods (#3746)"
+      },
+      {
+        "category": "fix",
+        "text": "#3692を修正。",
+        "evidence": "Fix #3692 (#3747)"
+      },
+      {
+        "category": "other",
+        "text": "レシピ.jsを更新。",
+        "evidence": "Update Recipes.js (#3794)"
+      },
+      {
+        "category": "other",
+        "text": "「Revise French クエスト texts for Apotheosis chapter」に関する変更。",
+        "evidence": "Revise French quest texts for Apotheosis chapter (#3778)"
+      },
+      {
+        "category": "fix",
+        "text": "grammar in ATM star paradox machine クエストを修正。",
+        "evidence": "fix grammar in ATM star paradox machine quest (#3826)"
+      },
+      {
+        "category": "other",
+        "text": "fr_fr\\chapter_group.snbtを更新。",
+        "evidence": "Update fr_fr\\chapter_group.snbt (#3898)"
+      }
+    ]
+  },
+  "5.5": {
+    "sourceHash": "6cd328490c8b7abec22c28f3baa5b484cdeeef94997b9548c4eccdfa4e627df7",
+    "title": "Ender IO - Modded ConduitsとIntegrationを追加",
+    "summary": "ATM10 5.5ではModを2件追加、Modを185件更新、Modを6件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Ender IO - Modded Conduitsを追加。",
+        "evidence": "Ender IO - Modded Conduits (8.1.1-beta)"
+      },
+      {
+        "category": "feature",
+        "text": "Integrationを追加。",
+        "evidence": "Integration (0.2)"
+      },
+      {
+        "category": "other",
+        "text": "Actually Additionsを1.3.22から1.3.24へ更新。",
+        "evidence": "Actually Additions (1.3.22) -> (1.3.24)"
+      },
+      {
+        "category": "other",
+        "text": "Advanced AEを1.6.7-1.21.1から1.6.9-1.21.1へ更新。",
+        "evidence": "Advanced AE (1.6.7-1.21.1) -> (1.6.9-1.21.1)"
+      },
+      {
+        "category": "other",
+        "text": "Advanced Peripheralsを0.7.57bから0.7.59bへ更新。",
+        "evidence": "Advanced Peripherals (0.7.57b) -> (0.7.59b)"
+      },
+      {
+        "category": "other",
+        "text": "AE2NetworkAnalyzerを1.21-2.1.3-neoforgeから1.21-2.1.4-neoforgeへ更新。",
+        "evidence": "AE2NetworkAnalyzer (1.21-2.1.3-neoforge) -> (1.21-2.1.4-neoforge)"
+      },
+      {
+        "category": "other",
+        "text": "AEInfinityBoosterを1.21.1-1.0.0.52から1.21.1-1.0.0.54へ更新。",
+        "evidence": "AEInfinityBooster (1.21.1-1.0.0.52) -> (1.21.1-1.0.0.54)"
+      },
+      {
+        "category": "other",
+        "text": "AllTheCompressedを4.3.0から4.4.0へ更新。",
+        "evidence": "AllTheCompressed (4.3.0) -> (4.4.0)"
+      }
+    ]
+  },
+  "5.3": {
+    "sourceHash": "4aa0039b2c5f54d040cf13551176cfa9cc09ee48bebbe3d1d3618b404503eb16",
+    "title": "32件のMod更新とゲーム内容の調整",
+    "summary": "ATM10 5.3ではModを32件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "fix",
+        "text": "Containment Jar Blacklist to not be overly broadを調整。",
+        "evidence": "fix: Adjust Containment Jar Blacklist to not be overly broad (#3680)"
+      },
+      {
+        "category": "other",
+        "text": "「クエスト Work」に関する変更。",
+        "evidence": "Quest Work (#3672)"
+      },
+      {
+        "category": "fix",
+        "text": "「iaf 設定」に関する変更。",
+        "evidence": "fix: iaf config"
+      },
+      {
+        "category": "feature",
+        "text": "emperor_chalice compat with Irons Spells cauldronを追加。",
+        "evidence": "feat: add emperor_chalice compat with Irons Spells cauldron"
+      },
+      {
+        "category": "fix",
+        "text": "「prep to remove eternal starlight」に関する変更。",
+        "evidence": "fix: prep to remove eternal starlight"
+      },
+      {
+        "category": "fix",
+        "text": "「prepare to remove hyperbox」に関する変更。",
+        "evidence": "fix: prepare to remove hyperbox"
+      },
+      {
+        "category": "feature",
+        "text": "announcementsを追加。",
+        "evidence": "feat: add announcements"
+      },
+      {
+        "category": "fix",
+        "text": "Jar Blacklist to not be overly broadを調整。",
+        "evidence": "* fix: Adjust Jar Blacklist to not be overly broad"
+      }
+    ]
+  },
+  "5.2": {
+    "sourceHash": "b03807360ead1e9f0f2a9d8897d011434fa8a3d960ed9fbeeeb79426beb5f53f",
+    "title": "67件のMod更新とゲーム内容の調整",
+    "summary": "ATM10 5.2ではModを67件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Compressed レシピ for ATM/Vib alloyを追加。",
+        "evidence": "Add Compressed recipe for ATM/Vib alloy (#3661)"
+      },
+      {
+        "category": "fix",
+        "text": "クエスト typos, 報酬, depencencies, etcを修正。",
+        "evidence": "- fix quests typos, rewards, depencencies, etc"
+      },
+      {
+        "category": "feature",
+        "text": "a freeze option to start game with frozen ticksを追加。",
+        "evidence": "- add a freeze option to start game with frozen ticks"
+      },
+      {
+        "category": "balance",
+        "text": "xycraft レシピ for aluminumを削除。",
+        "evidence": "- remove xycraft recipe for aluminum"
+      },
+      {
+        "category": "fix",
+        "text": "create JEI クラッシュ with chocolate pie from farmersdelightを修正。",
+        "evidence": "- fix create JEI crash with chocolate pie from farmersdelight"
+      },
+      {
+        "category": "feature",
+        "text": "`create_enchantment_industry:experience` to experience tagを追加。",
+        "evidence": "- add `create_enchantment_industry:experience` to experience tag"
+      },
+      {
+        "category": "feature",
+        "text": "`hydrofluoric_acid` to chemthrower to act like waterを追加。",
+        "evidence": "- add `hydrofluoric_acid` to chemthrower to act like water"
+      },
+      {
+        "category": "other",
+        "text": "zh_cn クエスト chapterを更新。",
+        "evidence": "* update zh_cn quest chapter"
+      }
+    ]
+  },
+  "5.1": {
+    "sourceHash": "5cab12944419aa54034c516be511be823e631c90696149f5ad223ac3555fb2b2",
+    "title": "35件のMod更新とゲーム内容の調整",
+    "summary": "ATM10 5.1ではModを35件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "fix",
+        "text": "scripts for kjs 7.2を更新。",
+        "evidence": "fix: update scripts for kjs 7.2"
+      },
+      {
+        "category": "feature",
+        "text": "BWG alias to prevent biome corruptionを追加。",
+        "evidence": "fix: add BWG alias to prevent biome corruption"
+      },
+      {
+        "category": "fix",
+        "text": "title from fancy menuを削除。",
+        "evidence": "fix: remove title from fancy menu"
+      },
+      {
+        "category": "feature",
+        "text": "eternal starlight warningを追加。",
+        "evidence": "fix: add eternal starlight warning"
+      },
+      {
+        "category": "fix",
+        "text": "「revert fml.設定」に関する変更。",
+        "evidence": "fix: revert fml.config"
+      },
+      {
+        "category": "other",
+        "text": "「Basic Power chapter additions (#3622) by wrobber1」に関する変更。",
+        "evidence": "Basic Power chapter additions (#3622) by wrobber1"
+      },
+      {
+        "category": "other",
+        "text": "Actually Additionsを1.3.21から1.3.22へ更新。",
+        "evidence": "Actually Additions (1.3.21) -> (1.3.22)"
+      },
+      {
+        "category": "other",
+        "text": "Advanced AEを1.6.6-1.21.1から1.6.7-1.21.1へ更新。",
+        "evidence": "Advanced AE (1.6.6-1.21.1) -> (1.6.7-1.21.1)"
+      }
+    ]
+  },
+  "5.0": {
+    "sourceHash": "b10299c217952a613569ee00fc9fcf625928a450608dd049c554a712d13976b3",
+    "title": "3件のMod削除と構成整理",
+    "summary": "ATM10 5.0ではModを3件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を4件抜粋しています。",
+    "items": [
+      {
+        "category": "fix",
+        "text": "modular machineryを削除。",
+        "evidence": "fix: remove modular machinery"
+      },
+      {
+        "category": "balance",
+        "text": "Modular Machinery Rebornを削除。",
+        "evidence": "Modular Machinery Reborn (2.3.2)"
+      },
+      {
+        "category": "balance",
+        "text": "Modular Machinery Reborn ArsNouveauを削除。",
+        "evidence": "Modular Machinery Reborn ArsNouveau (2.0.3)"
+      },
+      {
+        "category": "balance",
+        "text": "Modular Machinery Reborn Mekanismを削除。",
+        "evidence": "Modular Machinery Reborn Mekanism (2.0.6)"
+      }
+    ]
+  },
+  "4.15": {
+    "sourceHash": "01031a094524382e8e463ea1be4c2a38574511c48b9467f104af5d84e7ece59f",
+    "title": "AE2AddonLibを追加",
+    "summary": "ATM10 4.15ではModを1件追加、Modを121件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "new クエスト for Dyson Cube Project, fixed many typos and grammatical errors in Welcome and Chapter 1を追加。",
+        "evidence": "Added new quest for Dyson Cube Project, fixed many typos and grammatical errors in Welcome and Chapter 1 (#3584)"
+      },
+      {
+        "category": "feature",
+        "text": "remaining gear, plate and rod レシピ for CNC Stamperを追加。",
+        "evidence": "Add remaining gear, plate and rod recipes for CNC Stamper (#3593)"
+      },
+      {
+        "category": "other",
+        "text": "「クエスト Work: Part 1」に関する変更。",
+        "evidence": "Quest Work: Part 1"
+      },
+      {
+        "category": "other",
+        "text": "「クエスト Work: Part 2」に関する変更。",
+        "evidence": "Quest Work: Part 2"
+      },
+      {
+        "category": "fix",
+        "text": "「Titles for Apotheosis Gear and Extended & Advanced AE chapters + Deeper Darker title fix」に関する変更。",
+        "evidence": "Titles for Apotheosis Gear and Extended & Advanced AE chapters + Deeper Darker title fix"
+      },
+      {
+        "category": "other",
+        "text": "「クエスト Work: Part 3」に関する変更。",
+        "evidence": "Quest Work: Part 3"
+      },
+      {
+        "category": "other",
+        "text": "「クエスト Work: Part 4」に関する変更。",
+        "evidence": "Quest Work: Part 4"
+      },
+      {
+        "category": "other",
+        "text": "「クエスト Pictures」に関する変更。",
+        "evidence": "Quest Pictures"
+      }
+    ]
+  },
+  "4.13": {
+    "sourceHash": "8b8c2d4e89890d553df6e3439513ed663f99437f4f5c628246d82f935c0c5436",
+    "title": "ColorwheelとColorwheel Patcherを追加",
+    "summary": "ATM10 4.13ではModを5件追加、Modを90件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "apotheosis_2.snbtを更新。",
+        "evidence": "Update apotheosis_2.snbt (#3498)"
+      },
+      {
+        "category": "other",
+        "text": "「Hopeful クエスト Fixes」に関する変更。",
+        "evidence": "Hopeful Quest Fixes (#3507)"
+      },
+      {
+        "category": "fix",
+        "text": "「Fixed: Made invisible クエスト optional」に関する変更。",
+        "evidence": "Fixed: Made invisible quest optional (#3535)"
+      },
+      {
+        "category": "feature",
+        "text": "laser drill レシピ to new schemaを調整。",
+        "evidence": "adjust laser drill recipes to new schema"
+      },
+      {
+        "category": "other",
+        "text": "「Star クエスト lang for Oritech」に関する変更。",
+        "evidence": "Star Quest lang for Oritech"
+      },
+      {
+        "category": "fix",
+        "text": "「Mahou fix」に関する変更。",
+        "evidence": "Mahou fix"
+      },
+      {
+        "category": "other",
+        "text": "「Made the invisible クエスト with no dependencies in mekanism reactors page optional」に関する変更。",
+        "evidence": "Made the invisible quest with no dependencies in mekanism reactors page optional"
+      },
+      {
+        "category": "fix",
+        "text": "grindstone tabを削除。",
+        "evidence": "fix(jei): remove grindstone tab"
+      }
+    ]
+  },
+  "4.12": {
+    "sourceHash": "4356d8d4329232077acfcb16c662db45d574f4e623aa2f7478e457c305e9d23e",
+    "title": "ModularBeesを追加",
+    "summary": "ATM10 4.12ではModを1件追加、Modを82件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "fix",
+        "text": "クエスト related text 問題を修正。",
+        "evidence": "Fixed quest related text issues (#3444)"
+      },
+      {
+        "category": "fix",
+        "text": "Forbidden and arcanus Runic Crucible クエストを修正。",
+        "evidence": "Fixed Forbidden and arcanus Runic Crucible Quest (#3448)"
+      },
+      {
+        "category": "other",
+        "text": "the wording to the Runic Crucible クエスト in Chapter 4. It no longer mentions the Create heated mixing method of acquiring Liquefied Source.を更新。",
+        "evidence": "Updated the wording to the Runic Crucible quest in Chapter 4. It no longer mentions the Create heated mixing method of acquiring Liquefied Source. (#3473)"
+      },
+      {
+        "category": "feature",
+        "text": "unification for Mama's modsを追加。",
+        "evidence": "* Add unification for Mama's mods"
+      },
+      {
+        "category": "feature",
+        "text": "saplings to marketを追加。",
+        "evidence": "* Add saplings to market"
+      },
+      {
+        "category": "other",
+        "text": "crops.jsを更新。",
+        "evidence": "* Update crops.js"
+      },
+      {
+        "category": "fix",
+        "text": "typo for flax レシピを修正。",
+        "evidence": "* Fixed typo for flax recipe"
+      },
+      {
+        "category": "other",
+        "text": "ja_jp.jsonを更新。",
+        "evidence": "* Update ja_jp.json"
+      }
+    ]
+  },
+  "4.11": {
+    "sourceHash": "c29033656bf3d3a34f51afb0419ad6ab81f4ebed9279e881cdd482ef48ce3eb0",
+    "title": "Chroma CarvingsとDrippy Loading Screenを追加",
+    "summary": "ATM10 4.11ではModを5件追加、Modを113件更新、Modを6件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "immersive_engineering.snbtを更新。",
+        "evidence": "Update immersive_engineering.snbt (#3389)"
+      },
+      {
+        "category": "fix",
+        "text": "spelling of reservoir in IE クエスト lineを修正。",
+        "evidence": "Fix spelling of reservoir in IE quest line (#3393)"
+      },
+      {
+        "category": "other",
+        "text": "「Iron Spells and Cataclysm クエスト updates」に関する変更。",
+        "evidence": "Iron Spells and Cataclysm Quest updates (#3418)"
+      },
+      {
+        "category": "feature",
+        "text": "レシピ from Hephaestus forge to automatic forgeを追加。",
+        "evidence": "Add recipes from Hephaestus forge to automatic forge (#3432)"
+      },
+      {
+        "category": "fix",
+        "text": "RFTools Module Syringe Display in JEIを修正。",
+        "evidence": "Fix RFTools Module Syringe Display in JEI (#3397)"
+      },
+      {
+        "category": "fix",
+        "text": "クラッシュ.yamlを更新。",
+        "evidence": "Update crash.yaml"
+      },
+      {
+        "category": "other",
+        "text": "「Renamed Refined Storage クエスト 報酬 Table Files」に関する変更。",
+        "evidence": "* Renamed Refined Storage Quest Reward Table Files"
+      },
+      {
+        "category": "fix",
+        "text": "spelling of Manatee in English Ice and Fire クエストを修正。",
+        "evidence": "* Fix spelling of Manatee in English Ice and Fire quests"
+      }
+    ]
+  },
+  "4.7": {
+    "sourceHash": "5aa3625293f5f865ca5f92bb116ae2661f4c2f2d26a28384947d95816ae6ce2c",
+    "title": "Accessories Compatibility LayerとBotanyPots-Mysticalを追加",
+    "summary": "ATM10 4.7ではModを7件追加、Modを43件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "draconic クエストを追加。",
+        "evidence": "feat: add draconic quest"
+      },
+      {
+        "category": "feature",
+        "text": "draconic クエスト nameを追加。",
+        "evidence": "fix: add draconic quest name"
+      },
+      {
+        "category": "feature",
+        "text": "draconic dust レシピを追加。",
+        "evidence": "feat: add draconic dust recipes"
+      },
+      {
+        "category": "fix",
+        "text": "sawmill datapackを更新。",
+        "evidence": "fix: update sawmill datapack"
+      },
+      {
+        "category": "feature",
+        "text": "draconium ore to mining dimを追加。",
+        "evidence": "feat: add draconium ore to mining dim"
+      },
+      {
+        "category": "fix",
+        "text": "「hide top left menu stuff」に関する変更。",
+        "evidence": "fix: hide top left menu stuff"
+      },
+      {
+        "category": "fix",
+        "text": "「draconic dust」に関する変更。",
+        "evidence": "fix: draconic dust"
+      },
+      {
+        "category": "feature",
+        "text": "Accessories Compatibility Layerを追加。",
+        "evidence": "Accessories Compatibility Layer (0.1.3)"
+      }
+    ]
+  },
+  "4.6": {
+    "sourceHash": "cc778a0351d244620224dd39f72b940bbb562fcb302959bf6508437b3893a7a7",
+    "title": "AccessoriesとThe Aetherを追加",
+    "summary": "ATM10 4.6ではModを8件追加、Modを122件更新、Modを1件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "「クエスト 報酬: 4 dark oak saplings」に関する変更。",
+        "evidence": "quest reward: 4 dark oak saplings (#3215)"
+      },
+      {
+        "category": "fix",
+        "text": "XP Bottle レシピを修正。",
+        "evidence": "Fix XP Bottle recipe (#3255)"
+      },
+      {
+        "category": "other",
+        "text": "sagMill.jsを更新。",
+        "evidence": "Update sagMill.js (#3264)"
+      },
+      {
+        "category": "fix",
+        "text": "Aviar's image againを修正。",
+        "evidence": "Fix Aviar's image again (#3266)"
+      },
+      {
+        "category": "fix",
+        "text": "「クエスト 4.5 fix again」に関する変更。",
+        "evidence": "Quest 4.5 fix again (#3265)"
+      },
+      {
+        "category": "other",
+        "text": "「Delete 設定/ftbクエスト/クエスト/chapters/age_of_oil.snbt」に関する変更。",
+        "evidence": "Delete config/ftbquests/quests/chapters/age_of_oil.snbt (#3274)"
+      },
+      {
+        "category": "fix",
+        "text": "「incorrect phrasing in クエスト for mace of distortion」に関する変更。",
+        "evidence": "fix: incorrect phrasing in quest for mace of distortion (#3287)"
+      },
+      {
+        "category": "feature",
+        "text": "icon imagesを追加。",
+        "evidence": "add icon images (#3283)"
+      }
+    ]
+  },
+  "4.5": {
+    "sourceHash": "1141c3a7ccdf481a7b54cef6059bd375676049d106fa2f997654ad0d93a18869",
+    "title": "Ars UnificationとExpanded AEを追加",
+    "summary": "ATM10 4.5ではModを7件追加、Modを100件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "jaを更新。",
+        "evidence": "update ja (#3138)"
+      },
+      {
+        "category": "fix",
+        "text": "「設定 for menril」に関する変更。",
+        "evidence": "fix: config for menril (#3156)"
+      },
+      {
+        "category": "fix",
+        "text": "typo in MI クエストを修正。",
+        "evidence": "Fix typo in MI quest (#3170)"
+      },
+      {
+        "category": "fix",
+        "text": "「F & A クエスト fix」に関する変更。",
+        "evidence": "F & A quest fix (#3199)"
+      },
+      {
+        "category": "fix",
+        "text": "another cheaty steelを削除。",
+        "evidence": "* fix: remove another cheaty steel"
+      },
+      {
+        "category": "other",
+        "text": "「I dont know would we not need this 設定 to have menril logs tag merged as well」に関する変更。",
+        "evidence": "I dont know would we not need this config to have menril logs tag merged as well"
+      },
+      {
+        "category": "feature",
+        "text": "more incontrol mobsを追加。",
+        "evidence": "feat: add more incontrol mobs"
+      },
+      {
+        "category": "other",
+        "text": "「mi クエスト updates」に関する変更。",
+        "evidence": "mi quest updates"
+      }
+    ]
+  },
+  "4.4": {
+    "sourceHash": "549096e66f87e4e64a45747d00747625fcfce0a1a218b55bd076b7232859f36c",
+    "title": "Mod構成の整理と1件の更新",
+    "summary": "ATM10 4.4ではModを1件更新、Modを1件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "balance",
+        "text": "op machines and レシピ from mekmmを削除。",
+        "evidence": "feat: remove op machines and recipes from mekmm (#3111)"
+      },
+      {
+        "category": "feature",
+        "text": "prist to spawnを利用できるように変更。",
+        "evidence": "fix: allow prist to spawn"
+      },
+      {
+        "category": "fix",
+        "text": "flower item to blockを調整。",
+        "evidence": "fix: change flower item to block"
+      },
+      {
+        "category": "other",
+        "text": "「fully resolves #3107」に関する変更。",
+        "evidence": "- fully resolves #3107"
+      },
+      {
+        "category": "other",
+        "text": "tree spawning for merrymaking and limited presents in 戦利品を削除。",
+        "evidence": "Removed tree spawning for merrymaking and limited presents in loot (#3120)"
+      },
+      {
+        "category": "other",
+        "text": "「uru metal gear レシピ and material changes」に関する変更。",
+        "evidence": "uru metal gear recipes and material changes (#3121)"
+      },
+      {
+        "category": "fix",
+        "text": "「just dire machines now runs on a minimum of 20t」に関する変更。",
+        "evidence": "fix: just dire machines now runs on a minimum of 20t"
+      },
+      {
+        "category": "fix",
+        "text": "「plastic unification」に関する変更。",
+        "evidence": "fix: plastic unification"
+      }
+    ]
+  },
+  "4.3": {
+    "sourceHash": "5c7d17a0166df939570341feb3165e7162bb862ffdc29130da2d6a7d57336e20",
+    "title": "Ars ControleとArs Polymorphiaを追加",
+    "summary": "ATM10 4.3ではModを7件追加、Modを85件更新、Modを2件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "「クエスト fixes」に関する変更。",
+        "evidence": "Quest fixes (#3028)"
+      },
+      {
+        "category": "fix",
+        "text": "「wither bone tags for レシピ 互換性」に関する変更。",
+        "evidence": "fix: wither bone tags for recipe compatibility (#3041)"
+      },
+      {
+        "category": "fix",
+        "text": "the Runic Star Altar Block icon in the クエスト.を修正。",
+        "evidence": "Fixed the Runic Star Altar Block icon in the quest. (#3062)"
+      },
+      {
+        "category": "other",
+        "text": "Mekanism Reactors クエスト pull #3066を更新。",
+        "evidence": "Update Mekanism Reactors Quest pull #3066"
+      },
+      {
+        "category": "fix",
+        "text": "extra comments, removed enchanting from oritechを削除。",
+        "evidence": "fix: remove extra comments, removed enchanting from oritech (#3010)"
+      },
+      {
+        "category": "other",
+        "text": "「[PT-BR] Updated Mekanism クエスト and more. #3066」に関する変更。",
+        "evidence": "[PT-BR] Updated Mekanism Quest and more. #3066"
+      },
+      {
+        "category": "balance",
+        "text": "cheaty steel and electrum レシピを削除。",
+        "evidence": "Remove cheaty steel and electrum recipe (#3088)"
+      },
+      {
+        "category": "feature",
+        "text": "dragon familiar alternativeを追加。",
+        "evidence": "fix: add dragon familiar alternative"
+      }
+    ]
+  },
+  "4.2": {
+    "sourceHash": "16dee14fa38e137030319b55f076052300995d3340659879f35e2ae90b06079d",
+    "title": "Oracle Indexを追加",
+    "summary": "ATM10 4.2ではModを1件追加、Modを15件更新、Modを1件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "fix",
+        "text": "typo in eternal starlight クエストを修正。",
+        "evidence": "Fix typo in eternal starlight quests (#2991)"
+      },
+      {
+        "category": "feature",
+        "text": "oritech things from クエスト, add moreを削除。",
+        "evidence": "fix: Remove oritech things from quests, add more (#3000)"
+      },
+      {
+        "category": "other",
+        "text": "「Oritech クエスト related images」に関する変更。",
+        "evidence": "* Oritech quest related images"
+      },
+      {
+        "category": "other",
+        "text": "Oritech クエスト, no oritech thingsを更新。",
+        "evidence": "* Update Oritech quests, no oritech things"
+      },
+      {
+        "category": "feature",
+        "text": "クエスト for ore processingを追加。",
+        "evidence": "- Add quests for ore processing"
+      },
+      {
+        "category": "feature",
+        "text": "クエスト for Nuclear Reactorを追加。",
+        "evidence": "- Add quest for Nuclear Reactor"
+      },
+      {
+        "category": "other",
+        "text": "alternate レシピ `Improved Machine core`を削除。",
+        "evidence": "- Removed alternate recipe `Improved Machine core`"
+      },
+      {
+        "category": "other",
+        "text": "「Made `Improved Machine core` レシピ slightly more expensive by adding fluxite block to it instead of redstone dust」に関する変更。",
+        "evidence": "- Made `Improved Machine core` recipe slightly more expensive by adding fluxite block to it instead of redstone dust"
+      }
+    ]
+  },
+  "4.1": {
+    "sourceHash": "860409a5a7ce24c9eb20883010e40bf8f26cac8573005d380d80bc9e783a62e2",
+    "title": "Oritech ThingsとPonderJSを追加",
+    "summary": "ATM10 4.1ではModを4件追加、Modを53件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "tag values from ice and fireを置き換え。",
+        "evidence": "replace tag values from ice and fire (#2978)"
+      },
+      {
+        "category": "balance",
+        "text": "industrialforegoing-client.toml to avoid overwriting user settingsを削除。",
+        "evidence": "Remove industrialforegoing-client.toml to avoid overwriting user settings (#2969)"
+      },
+      {
+        "category": "feature",
+        "text": "placing AA manual on the bookshelfを利用できるように変更。",
+        "evidence": "Allow placing AA manual on the bookshelf (#2905)"
+      },
+      {
+        "category": "fix",
+        "text": "「Limit time_wand_max_multiplier to 128 to prevent error message when attempting to accelerate to 256x」に関する変更。",
+        "evidence": "Limit time_wand_max_multiplier to 128 to prevent error message when attempting to accelerate to 256x (#2934)"
+      },
+      {
+        "category": "feature",
+        "text": "ingredientDedupe as MMR fixed in互換性を有効化。",
+        "evidence": "feat: enable ingredientDedupe as MMR fixed incompatibility (#1798)"
+      },
+      {
+        "category": "fix",
+        "text": "peripheral book at world joinを削除。",
+        "evidence": "fix: remove peripheral book at world join"
+      },
+      {
+        "category": "fix",
+        "text": "「mekanism gbg nerf」に関する変更。",
+        "evidence": "fix: mekanism gbg nerf"
+      },
+      {
+        "category": "feature",
+        "text": "oritech biosteel to unification ignoreを追加。",
+        "evidence": "fix: add oritech biosteel to unification ignore"
+      }
+    ]
+  },
+  "4.0": {
+    "sourceHash": "36faf402ed694f3bdd43b9c5dc13412c18cb59eebd03a0252c0a40da7c8e2e57",
+    "title": "Ars CreoとCreate: Bells & Whistlesを追加",
+    "summary": "ATM10 4.0ではModを15件追加、Modを79件更新、Modを2件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Ars Creoを追加。",
+        "evidence": "Ars Creo (5.1.0)"
+      },
+      {
+        "category": "feature",
+        "text": "Create: Bells & Whistlesを追加。",
+        "evidence": "Create: Bells & Whistles (0.4.7-1.21.1)"
+      },
+      {
+        "category": "feature",
+        "text": "Clumpsを追加。",
+        "evidence": "Clumps (19.0.0.1)"
+      },
+      {
+        "category": "feature",
+        "text": "Forgified Fabric Networking APIを追加。",
+        "evidence": "Forgified Fabric Networking API (v1) (4.2.2+a92978fd19)"
+      },
+      {
+        "category": "feature",
+        "text": "Forgified Fabric Screen APIを追加。",
+        "evidence": "Forgified Fabric Screen API (v1) (2.0.24+79a4c2b0d1)"
+      },
+      {
+        "category": "feature",
+        "text": "Get It Together, Drops!を追加。",
+        "evidence": "Get It Together, Drops! (1.3.2)"
+      },
+      {
+        "category": "feature",
+        "text": "Ice And Fire Community Editionを追加。",
+        "evidence": "Ice And Fire Community Edition (1.0-beta.9)"
+      },
+      {
+        "category": "feature",
+        "text": "Jupiterを追加。",
+        "evidence": "Jupiter (2.2)"
+      }
+    ]
+  },
+  "3.2": {
+    "sourceHash": "92a9ca4c6f7bc8f4e9f57cc5fbf416551b4bd017b272a3768a64b137c8c6f21f",
+    "title": "Bibliobiomes Legacyを追加",
+    "summary": "ATM10 3.2ではModを1件追加、Modを66件更新、Modを4件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Bibliobiomes Legacyを追加。",
+        "evidence": "Bibliobiomes Legacy (1.5.0)"
+      },
+      {
+        "category": "other",
+        "text": "Applied Energistics 2を19.2.10から19.2.11へ更新。",
+        "evidence": "Applied Energistics 2 (19.2.10) -> (19.2.11)"
+      },
+      {
+        "category": "other",
+        "text": "Apothic Enchantingを1.4.1から1.4.2へ更新。",
+        "evidence": "Apothic Enchanting (1.4.1) -> (1.4.2)"
+      },
+      {
+        "category": "other",
+        "text": "Ars Technicaを2.1.1から2.2.0へ更新。",
+        "evidence": "Ars Technica (2.1.1) -> (2.2.0)"
+      },
+      {
+        "category": "other",
+        "text": "Artifactsを13.0.5から13.0.6へ更新。",
+        "evidence": "Artifacts (13.0.5) -> (13.0.6)"
+      },
+      {
+        "category": "other",
+        "text": "Balmを21.0.44から21.0.46へ更新。",
+        "evidence": "Balm (21.0.44) -> (21.0.46)"
+      },
+      {
+        "category": "other",
+        "text": "Bibliocraft Legacyを1.4.1から1.5.4へ更新。",
+        "evidence": "Bibliocraft Legacy (1.4.1) -> (1.5.4)"
+      },
+      {
+        "category": "other",
+        "text": "Bibliowoods Legacyを1.4.0から1.5.2へ更新。",
+        "evidence": "Bibliowoods Legacy (1.4.0) -> (1.5.2)"
+      }
+    ]
+  },
+  "3.0": {
+    "sourceHash": "4d57f47ad0e1c30a2d417224fc6b5494f18bea9e005b3b83cc667f418691bad1",
+    "title": "Ars ElemancyとSilent's Gemsを追加",
+    "summary": "ATM10 3.0ではModを4件追加、Modを79件更新、Modを2件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Ars Elemancyを追加。",
+        "evidence": "Ars Elemancy (1.3)"
+      },
+      {
+        "category": "feature",
+        "text": "Silent's Gemsを追加。",
+        "evidence": "Silent's Gems (5.0.3)"
+      },
+      {
+        "category": "feature",
+        "text": "Starbunclemaniaを追加。",
+        "evidence": "Starbunclemania (1.4.0.0)"
+      },
+      {
+        "category": "feature",
+        "text": "Transfer Labelsを追加。",
+        "evidence": "Transfer Labels (0.1.2)"
+      },
+      {
+        "category": "other",
+        "text": "AllTheTweaksを2.6.3から2.6.5へ更新。",
+        "evidence": "AllTheTweaks (2.6.3) -> (2.6.5)"
+      },
+      {
+        "category": "other",
+        "text": "Apotheosisを8.3.4から8.3.6へ更新。",
+        "evidence": "Apotheosis (8.3.4) -> (8.3.6)"
+      },
+      {
+        "category": "other",
+        "text": "Apothic Attributesを2.8.0から2.8.1へ更新。",
+        "evidence": "Apothic Attributes (2.8.0) -> (2.8.1)"
+      },
+      {
+        "category": "other",
+        "text": "Apothic Enchantingを1.4.0から1.4.1へ更新。",
+        "evidence": "Apothic Enchanting (1.4.0) -> (1.4.1)"
+      }
+    ]
+  },
+  "2.47": {
+    "sourceHash": "3faa5a7d12c28b7f2b7447feb64fb320b9fe7262a192557e30f09073f2b7d485",
+    "title": "Ars TechnicaとCommon Storage Lib: Dataを追加",
+    "summary": "ATM10 2.47ではModを15件追加、Modを112件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Ars Technicaを追加。",
+        "evidence": "Ars Technica (2.1.0)"
+      },
+      {
+        "category": "feature",
+        "text": "Common Storage Lib: Dataを追加。",
+        "evidence": "Common Storage Lib: Data (0.0.7)"
+      },
+      {
+        "category": "feature",
+        "text": "conditional mixinを追加。",
+        "evidence": "conditional mixin (0.6.4)"
+      },
+      {
+        "category": "feature",
+        "text": "Create: Dragons Plusを追加。",
+        "evidence": "Create: Dragons Plus (1.4.2)"
+      },
+      {
+        "category": "feature",
+        "text": "Create: Enchantment Industryを追加。",
+        "evidence": "Create: Enchantment Industry (2.1.1)"
+      },
+      {
+        "category": "feature",
+        "text": "Create Crafts & Additionsを追加。",
+        "evidence": "Create Crafts & Additions (0.0NONE)"
+      },
+      {
+        "category": "feature",
+        "text": "Dyenamics and Friendsを追加。",
+        "evidence": "Dyenamics and Friends (1.21.1-2.1.1)"
+      },
+      {
+        "category": "feature",
+        "text": "Fast Suiteを追加。",
+        "evidence": "Fast Suite (6.0.4)"
+      }
+    ]
+  },
+  "2.44": {
+    "sourceHash": "f4300af6e6236137b2b0c3110d130baf64490fb2cbdb59d4debb24933c96aaac",
+    "title": "Interdimensional Wireless TransmitterとUniversal Gridを追加",
+    "summary": "ATM10 2.44ではModを2件追加、Modを18件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Interdimensional Wireless Transmitterを追加。",
+        "evidence": "Interdimensional Wireless Transmitter (1.21.1-0.1.2)"
+      },
+      {
+        "category": "feature",
+        "text": "Universal Gridを追加。",
+        "evidence": "Universal Grid (1.21.1-0.1.3)"
+      },
+      {
+        "category": "other",
+        "text": "AllTheTweaksを2.6.1から2.6.2へ更新。",
+        "evidence": "AllTheTweaks (2.6.1) -> (2.6.2)"
+      },
+      {
+        "category": "other",
+        "text": "Bookshelfを21.1.56から21.1.57へ更新。",
+        "evidence": "Bookshelf (21.1.56) -> (21.1.57)"
+      },
+      {
+        "category": "other",
+        "text": "Byzantineを31.2から31.3へ更新。",
+        "evidence": "Byzantine (31.2) -> (31.3)"
+      },
+      {
+        "category": "other",
+        "text": "Cable Tiersを1.21.1-0.1.0から1.21.1-0.1.1へ更新。",
+        "evidence": "Cable Tiers (1.21.1-0.1.0) -> (1.21.1-0.1.1)"
+      },
+      {
+        "category": "other",
+        "text": "Crash Assistantを1.7.2から1.7.4へ更新。",
+        "evidence": "Crash Assistant (1.7.2) -> (1.7.4)"
+      },
+      {
+        "category": "other",
+        "text": "EnderDrivesを1.3.2から1.2.4へ更新。",
+        "evidence": "EnderDrives (1.3.2) -> (1.2.4)"
+      }
+    ]
+  },
+  "2.43": {
+    "sourceHash": "42a27bd4917b8b3278074820d8e915cec622e3b613abce8e6d965ac42588b823",
+    "title": "Cable TiersとExtra Disksを追加",
+    "summary": "ATM10 2.43ではModを8件追加、Modを79件更新、Modを1件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Cable Tiersを追加。",
+        "evidence": "Cable Tiers (1.21.1-0.1.0)"
+      },
+      {
+        "category": "feature",
+        "text": "Extra Disksを追加。",
+        "evidence": "Extra Disks (1.21.1-4.0.9)"
+      },
+      {
+        "category": "feature",
+        "text": "ExtraStorageを追加。",
+        "evidence": "ExtraStorage (5.0.1)"
+      },
+      {
+        "category": "feature",
+        "text": "Refined Storageを追加。",
+        "evidence": "Refined Storage (2.0.0-beta.2)"
+      },
+      {
+        "category": "feature",
+        "text": "Refined Storage - Curios Integrationを追加。",
+        "evidence": "Refined Storage - Curios Integration (1.0.0)"
+      },
+      {
+        "category": "feature",
+        "text": "Refined Storage - JEI Integrationを追加。",
+        "evidence": "Refined Storage - JEI Integration (1.0.0)"
+      },
+      {
+        "category": "feature",
+        "text": "Refined Storage - Mekanism Integrationを追加。",
+        "evidence": "Refined Storage - Mekanism Integration (1.0.0)"
+      },
+      {
+        "category": "feature",
+        "text": "Refined Storage - Quartz Arsenalを追加。",
+        "evidence": "Refined Storage - Quartz Arsenal (1.0.0)"
+      }
+    ]
+  },
+  "2.42": {
+    "sourceHash": "4f6dc77b71bc398a5d3f73a2591fb3516a46d6e3da1535d41231270b0c38f561",
+    "title": "EnderDrivesとRFToolsUtilityを追加",
+    "summary": "ATM10 2.42ではModを2件追加、Modを109件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "EnderDrivesを追加。",
+        "evidence": "EnderDrives (1.2.2)"
+      },
+      {
+        "category": "feature",
+        "text": "RFToolsUtilityを追加。",
+        "evidence": "RFToolsUtility (1.21-7.0.2)"
+      },
+      {
+        "category": "other",
+        "text": "Actually Additionsを1.3.16から1.3.17へ更新。",
+        "evidence": "Actually Additions (1.3.16) -> (1.3.17)"
+      },
+      {
+        "category": "other",
+        "text": "Applied Energistics 2を19.2.5-betaから19.2.7へ更新。",
+        "evidence": "Applied Energistics 2 (19.2.5-beta) -> (19.2.7)"
+      },
+      {
+        "category": "other",
+        "text": "AE2:Crafting Treeを1.21.1-1.0.5から1.21.1-1.0.6へ更新。",
+        "evidence": "AE2:Crafting Tree (1.21.1-1.0.5) -> (1.21.1-1.0.6)"
+      },
+      {
+        "category": "other",
+        "text": "Allthemodiumを2.8.10から2.9.1へ更新。",
+        "evidence": "Allthemodium (2.8.10) -> (2.9.1)"
+      },
+      {
+        "category": "other",
+        "text": "AllTheTweaksを2.6.0から2.6.1へ更新。",
+        "evidence": "AllTheTweaks (2.6.0) -> (2.6.1)"
+      },
+      {
+        "category": "other",
+        "text": "AppliedFluxを1.21-2.0.5-neoforgeから1.21-2.1.0-neoforgeへ更新。",
+        "evidence": "AppliedFlux (1.21-2.0.5-neoforge) -> (1.21-2.1.0-neoforge)"
+      }
+    ]
+  },
+  "2.41": {
+    "sourceHash": "58898e407e25a0eb9bc4ce13cefdca7ea99c3fadc1a23be3554bdae0e475eb04",
+    "title": "12件のMod更新とゲーム内容の調整",
+    "summary": "ATM10 2.41ではModを12件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "Ars Nouveauを5.6.0から5.5.1へ更新。",
+        "evidence": "Ars Nouveau (5.6.0) -> (5.5.1)"
+      },
+      {
+        "category": "other",
+        "text": "ImmediatelyFastを1.6.1+1.21.1から1.6.2+1.21.1へ更新。",
+        "evidence": "ImmediatelyFast (1.6.1+1.21.1) -> (1.6.2+1.21.1)"
+      },
+      {
+        "category": "other",
+        "text": "Iron's Spells 'n Spellbooksを1.21.1-3.10.0から1.21.1-3.10.1へ更新。",
+        "evidence": "Iron's Spells 'n Spellbooks (1.21.1-3.10.0) -> (1.21.1-3.10.1)"
+      },
+      {
+        "category": "other",
+        "text": "Let Me Despawnを1.4.4から1.5.0へ更新。",
+        "evidence": "Let Me Despawn (1.4.4) -> (1.5.0)"
+      },
+      {
+        "category": "other",
+        "text": "McJtyLibを1.21-9.0.5から1.21-9.0.6へ更新。",
+        "evidence": "McJtyLib (1.21-9.0.5) -> (1.21-9.0.6)"
+      },
+      {
+        "category": "other",
+        "text": "MineColoniesを1.1.899-1.21.1-snapshotから1.1.905-1.21.1-snapshotへ更新。",
+        "evidence": "MineColonies (1.1.899-1.21.1-snapshot) -> (1.1.905-1.21.1-snapshot)"
+      },
+      {
+        "category": "other",
+        "text": "RFToolsBaseを1.21-6.0.5から1.21-6.0.6へ更新。",
+        "evidence": "RFToolsBase (1.21-6.0.5) -> (1.21-6.0.6)"
+      },
+      {
+        "category": "other",
+        "text": "RFToolsBuilderを1.21-7.0.1から1.21-7.0.2へ更新。",
+        "evidence": "RFToolsBuilder (1.21-7.0.1) -> (1.21-7.0.2)"
+      }
+    ]
+  },
+  "2.40": {
+    "sourceHash": "98226d3330ea8b0e2fa414bf3bf830d19824fe589e26057a710bc3ccf477425b",
+    "title": "Camolを追加",
+    "summary": "ATM10 2.40ではModを1件追加、Modを82件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "fix",
+        "text": "tree harvesting from reap modを無効化。",
+        "evidence": "fix: disable tree harvesting from reap mod (#2401)"
+      },
+      {
+        "category": "other",
+        "text": "en_us.snbt To Integrate Fixesを更新。",
+        "evidence": "Update en_us.snbt To Integrate Fixes"
+      },
+      {
+        "category": "balance",
+        "text": "Create Zinc ores generationを無効化。",
+        "evidence": "feat: disable Create Zinc ores generation"
+      },
+      {
+        "category": "feature",
+        "text": "enderstorage to BG2 deny listを追加。",
+        "evidence": "feat: add enderstorage to BG2 deny list"
+      },
+      {
+        "category": "feature",
+        "text": "Patrick Star レシピ to Create Mechanical クラフトを追加。",
+        "evidence": "feat: add Patrick Star recipe to Create Mechanical Crafting"
+      },
+      {
+        "category": "fix",
+        "text": "クエスト with ATM Star changesを更新。",
+        "evidence": "fix: update quest with ATM Star changes"
+      },
+      {
+        "category": "balance",
+        "text": "the way the amount is fed to the modular pressurized reaction chamber レシピ.を調整。",
+        "evidence": "* Adjust the way the amount is fed to the modular pressurized reaction chamber recipe."
+      },
+      {
+        "category": "other",
+        "text": "reap-server.tomlを更新。",
+        "evidence": "* Update reap-server.toml"
+      }
+    ]
+  },
+  "2.39": {
+    "sourceHash": "cb2565f3b9ea213168291b5f71dcca3285447435be5aa82054fdeb8721cb907e",
+    "title": "CreateとCryonic Configを追加",
+    "summary": "ATM10 2.39ではModを5件追加、Modを44件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Createを追加。",
+        "evidence": "Create (6.0.2)"
+      },
+      {
+        "category": "feature",
+        "text": "Cryonic Configを追加。",
+        "evidence": "Cryonic Config (1.0.0+mc1.21.4)"
+      },
+      {
+        "category": "feature",
+        "text": "Deimosを追加。",
+        "evidence": "Deimos (2.1)"
+      },
+      {
+        "category": "feature",
+        "text": "Flywheelを追加。",
+        "evidence": "Flywheel (1.0.1-11)"
+      },
+      {
+        "category": "feature",
+        "text": "Ponderを追加。",
+        "evidence": "Ponder (1.0.44)"
+      },
+      {
+        "category": "other",
+        "text": "Amendmentsを1.21-1.2.23から1.21-1.2.24へ更新。",
+        "evidence": "Amendments (1.21-1.2.23) -> (1.21-1.2.24)"
+      },
+      {
+        "category": "other",
+        "text": "Ars Elementalを0.7.2.0から0.7.2.2へ更新。",
+        "evidence": "Ars Elemental (0.7.2.0) -> (0.7.2.2)"
+      },
+      {
+        "category": "other",
+        "text": "Ars Nouveauを5.5.0から5.5.1へ更新。",
+        "evidence": "Ars Nouveau (5.5.0) -> (5.5.1)"
+      }
+    ]
+  },
+  "2.38": {
+    "sourceHash": "fc8ab8c3cc6e636e9011088f1f1c64a283cb0bface5cbfaedce3c5e9681780ee",
+    "title": "10件のMod更新とゲーム内容の調整",
+    "summary": "ATM10 2.38ではModを10件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "Forbidden Arcanusを2.5.13から2.5.12へ更新。",
+        "evidence": "Forbidden Arcanus (2.5.13) -> (2.5.12)"
+      },
+      {
+        "category": "other",
+        "text": "FramedBlocksを10.2.4から10.2.5へ更新。",
+        "evidence": "FramedBlocks (10.2.4) -> (10.2.5)"
+      },
+      {
+        "category": "other",
+        "text": "Macaw's Paths and Pavingsを1.0.5から1.1.0へ更新。",
+        "evidence": "Macaw's Paths and Pavings (1.0.5) -> (1.1.0)"
+      },
+      {
+        "category": "other",
+        "text": "Mekanismを10.7.9から10.7.10へ更新。",
+        "evidence": "Mekanism (10.7.9) -> (10.7.10)"
+      },
+      {
+        "category": "other",
+        "text": "Mekanism: Generatorsを10.7.9から10.7.10へ更新。",
+        "evidence": "Mekanism: Generators (10.7.9) -> (10.7.10)"
+      },
+      {
+        "category": "other",
+        "text": "Mekanism: Toolsを10.7.9から10.7.10へ更新。",
+        "evidence": "Mekanism: Tools (10.7.9) -> (10.7.10)"
+      },
+      {
+        "category": "other",
+        "text": "NeoForgeを21.1.123から21.1.125へ更新。",
+        "evidence": "NeoForge (21.1.123) -> (21.1.125)"
+      },
+      {
+        "category": "other",
+        "text": "Relicsを0.10.5.3から0.10.5.4へ更新。",
+        "evidence": "Relics (0.10.5.3) -> (0.10.5.4)"
+      }
+    ]
+  },
+  "2.37": {
+    "sourceHash": "be198976bbe8fd6745b782e8303edc828205d1d389539360a3f492ca3aa07c7d",
+    "title": "Advanced PeripheralsとLoad My F***ing Tagsを追加",
+    "summary": "ATM10 2.37ではModを2件追加、Modを61件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Advanced Peripheralsを追加。",
+        "evidence": "Advanced Peripherals (0.7.49a)"
+      },
+      {
+        "category": "feature",
+        "text": "Load My F***ing Tagsを追加。",
+        "evidence": "Load My F***ing Tags (1.0.4+1.21)"
+      },
+      {
+        "category": "other",
+        "text": "Advanced AEを1.2.3-1.21.1から1.2.5-1.21.1へ更新。",
+        "evidence": "Advanced AE (1.2.3-1.21.1) -> (1.2.5-1.21.1)"
+      },
+      {
+        "category": "other",
+        "text": "Applied Energistics 2を19.2.3-betaから19.2.5-betaへ更新。",
+        "evidence": "Applied Energistics 2 (19.2.3-beta) -> (19.2.5-beta)"
+      },
+      {
+        "category": "other",
+        "text": "AEInfinityBoosterを1.21-1.0.1.38から1.21.1-1.0.0.49へ更新。",
+        "evidence": "AEInfinityBooster (1.21-1.0.1.38) -> (1.21.1-1.0.0.49)"
+      },
+      {
+        "category": "other",
+        "text": "All The Leaksを0.1.14-beta+1.21.1-neoforgeから0.1.15-beta+1.21.1-neoforgeへ更新。",
+        "evidence": "All The Leaks (0.1.14-beta+1.21.1-neoforge) -> (0.1.15-beta+1.21.1-neoforge)"
+      },
+      {
+        "category": "other",
+        "text": "AppliedFluxを1.21-2.0.4-neoforgeから1.21-2.0.5-neoforgeへ更新。",
+        "evidence": "AppliedFlux (1.21-2.0.4-neoforge) -> (1.21-2.0.5-neoforge)"
+      },
+      {
+        "category": "other",
+        "text": "Ars Nouveauを5.4.1から5.5.0へ更新。",
+        "evidence": "Ars Nouveau (5.4.1) -> (5.5.0)"
+      }
+    ]
+  },
+  "2.36": {
+    "sourceHash": "44de6e7d83206332144c627653e48a19b6c738acbcf3f258bc30b151d9580c4d",
+    "title": "KeyBind Bundlesを追加",
+    "summary": "ATM10 2.36ではModを1件追加、Modを65件更新、Modを1件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "KeyBind Bundlesを追加。",
+        "evidence": "KeyBind Bundles (1.1.0)"
+      },
+      {
+        "category": "other",
+        "text": "Actually Additionsを1.3.14から1.3.15へ更新。",
+        "evidence": "Actually Additions (1.3.14) -> (1.3.15)"
+      },
+      {
+        "category": "other",
+        "text": "Applied Energistics 2を19.2.2-betaから19.2.3-betaへ更新。",
+        "evidence": "Applied Energistics 2 (19.2.2-beta) -> (19.2.3-beta)"
+      },
+      {
+        "category": "other",
+        "text": "AllTheTweaksを2.5.3から2.5.4へ更新。",
+        "evidence": "AllTheTweaks (2.5.3) -> (2.5.4)"
+      },
+      {
+        "category": "other",
+        "text": "Amendmentsを1.21-1.2.22から1.21-1.2.23へ更新。",
+        "evidence": "Amendments (1.21-1.2.22) -> (1.21-1.2.23)"
+      },
+      {
+        "category": "other",
+        "text": "AppliedFluxを1.21-2.0.3-neoforgeから1.21-2.0.4-neoforgeへ更新。",
+        "evidence": "AppliedFlux (1.21-2.0.3-neoforge) -> (1.21-2.0.4-neoforge)"
+      },
+      {
+        "category": "other",
+        "text": "Balmを21.0.25から21.0.27へ更新。",
+        "evidence": "Balm (21.0.25) -> (21.0.27)"
+      },
+      {
+        "category": "other",
+        "text": "Oh The Biomes We've Goneを2.3.4から2.3.5へ更新。",
+        "evidence": "Oh The Biomes We've Gone (2.3.4) -> (2.3.5)"
+      }
+    ]
+  },
+  "2.34": {
+    "sourceHash": "33129ab4780178d21c0cb54c66b87c9a62d7bcf9522920a51111fb2d169241e2",
+    "title": "15件のMod更新とゲーム内容の調整",
+    "summary": "ATM10 2.34ではModを15件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "All The Leaksを0.1.13-beta+1.21.1-neoforgeから0.1.14-beta+1.21.1-neoforgeへ更新。",
+        "evidence": "All The Leaks (0.1.13-beta+1.21.1-neoforge) -> (0.1.14-beta+1.21.1-neoforge)"
+      },
+      {
+        "category": "other",
+        "text": "Balmを21.0.23から21.0.25へ更新。",
+        "evidence": "Balm (21.0.23) -> (21.0.25)"
+      },
+      {
+        "category": "other",
+        "text": "L_Ender's Cataclysmを2.49-1.21.1から2.52-1.21.1へ更新。",
+        "evidence": "L_Ender's Cataclysm (2.49-1.21.1) -> (2.52-1.21.1)"
+      },
+      {
+        "category": "other",
+        "text": "CodeChicken Libを4.6.0.520から4.6.0.521へ更新。",
+        "evidence": "CodeChicken Lib (4.6.0.520) -> (4.6.0.521)"
+      },
+      {
+        "category": "other",
+        "text": "Cooking for Blockheadsを21.1.8から21.1.9へ更新。",
+        "evidence": "Cooking for Blockheads (21.1.8) -> (21.1.9)"
+      },
+      {
+        "category": "other",
+        "text": "Crystalixを1.0.2から1.1.0へ更新。",
+        "evidence": "Crystalix (1.0.2) -> (1.1.0)"
+      },
+      {
+        "category": "other",
+        "text": "Everything is Copperを1.21.1-2.4.1から1.21.1-2.4.2へ更新。",
+        "evidence": "Everything is Copper (1.21.1-2.4.1) -> (1.21.1-2.4.2)"
+      },
+      {
+        "category": "other",
+        "text": "FTB Questsを2101.1.4から2101.1.5へ更新。",
+        "evidence": "FTB Quests (2101.1.4) -> (2101.1.5)"
+      }
+    ]
+  },
+  "2.33": {
+    "sourceHash": "1388f6b6f5dc6aaf2d4439a369a7c40debeeeafe18181561df3e85c3592983f6",
+    "title": "Mod構成の整理と43件の更新",
+    "summary": "ATM10 2.33ではModを43件更新、Modを1件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "feature_reクエスト.yamlを更新。",
+        "evidence": "Update feature_request.yaml"
+      },
+      {
+        "category": "other",
+        "text": "README.mdを更新。",
+        "evidence": "Update README.md"
+      },
+      {
+        "category": "other",
+        "text": "Duplicate Cake レシピを削除。",
+        "evidence": "Removed Duplicate Cake Recipes"
+      },
+      {
+        "category": "other",
+        "text": "changelog index about extensionを更新。",
+        "evidence": "docs: updated changelog index about extension"
+      },
+      {
+        "category": "other",
+        "text": "「Im not sure if the last changes saved, so i'll duble check」に関する変更。",
+        "evidence": "Im not sure if the last changes saved, so i'll duble check"
+      },
+      {
+        "category": "feature",
+        "text": "Grace +5 range for Max Enchantを追加。",
+        "evidence": "Added Grace +5 range for Max Enchant"
+      },
+      {
+        "category": "other",
+        "text": "「Up'd to +7 grace Max Enchants」に関する変更。",
+        "evidence": "Up'd to +7 grace Max Enchants"
+      },
+      {
+        "category": "other",
+        "text": "「Creative Fluid & Chemical Tank」に関する変更。",
+        "evidence": "Creative Fluid & Chemical Tank"
+      }
+    ]
+  },
+  "2.32": {
+    "sourceHash": "49e65d6ae23c5df5a32a6f03f6ec055031f5c34eb64277c61b3cdcc8c4d32cbe",
+    "title": "CrystalixとProductive Metalworksを追加",
+    "summary": "ATM10 2.32ではModを2件追加、Modを31件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Moss Block レシピを追加。",
+        "evidence": "Add Moss Block recipe"
+      },
+      {
+        "category": "other",
+        "text": "Extractor.jsを更新。",
+        "evidence": "Update Extractor.js"
+      },
+      {
+        "category": "balance",
+        "text": "「sushigoクラフト soy tag change」に関する変更。",
+        "evidence": "sushigocrafting soy tag change"
+      },
+      {
+        "category": "feature",
+        "text": "black quartz MA seedを追加。",
+        "evidence": "add black quartz MA seed"
+      },
+      {
+        "category": "balance",
+        "text": "Fluxnet Chunkloadingを無効化。",
+        "evidence": "Disable Fluxnet Chunkloading"
+      },
+      {
+        "category": "feature",
+        "text": "spent waste in radioactive cellsを有効化。",
+        "evidence": "Enable spent waste in radioactive cells"
+      },
+      {
+        "category": "other",
+        "text": "「MI Creosote レシピ in the EBF」に関する変更。",
+        "evidence": "MI Creosote Recipe in the EBF"
+      },
+      {
+        "category": "other",
+        "text": "「Pink Slime Block レシピ」に関する変更。",
+        "evidence": "Pink Slime Block Recipe"
+      }
+    ]
+  },
+  "2.31": {
+    "sourceHash": "44a29d05505a0ab5bd66fe568f787fc187cdf4dc6664397d04da4170f2b76d38",
+    "title": "Immersive Energisticsを追加",
+    "summary": "ATM10 2.31ではModを1件追加、Modを45件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Immersive Energisticsを追加。",
+        "evidence": "Immersive Energistics (1.1.0-beta)"
+      },
+      {
+        "category": "other",
+        "text": "Applied Energistics 2を19.1.3-betaから19.2.2-betaへ更新。",
+        "evidence": "Applied Energistics 2 (19.1.3-beta) -> (19.2.2-beta)"
+      },
+      {
+        "category": "other",
+        "text": "Allthemodiumを2.8.9から2.8.10へ更新。",
+        "evidence": "Allthemodium (2.8.9) -> (2.8.10)"
+      },
+      {
+        "category": "other",
+        "text": "Oh The Biomes We've Goneを2.3.2から2.3.3へ更新。",
+        "evidence": "Oh The Biomes We've Gone (2.3.2) -> (2.3.3)"
+      },
+      {
+        "category": "other",
+        "text": "UI Library Modを1.0.192-1.21.1-snapshotから1.0.194-1.21.1-snapshotへ更新。",
+        "evidence": "UI Library Mod (1.0.192-1.21.1-snapshot) -> (1.0.194-1.21.1-snapshot)"
+      },
+      {
+        "category": "other",
+        "text": "Bookshelfを21.1.45から21.1.46へ更新。",
+        "evidence": "Bookshelf (21.1.45) -> (21.1.46)"
+      },
+      {
+        "category": "other",
+        "text": "Byzantineを27から28へ更新。",
+        "evidence": "Byzantine (27) -> (28)"
+      },
+      {
+        "category": "other",
+        "text": "L_Ender's Cataclysmを1.21.1-2.44から2.46-1.21.1へ更新。",
+        "evidence": "L_Ender's Cataclysm (1.21.1-2.44) -> (2.46-1.21.1)"
+      }
+    ]
+  },
+  "2.30": {
+    "sourceHash": "647538f782194004ce357354895c8997d4e8d02c391502e0aaca787cdc3aa11d",
+    "title": "Additional Entity AttributesとNuggetsを追加",
+    "summary": "ATM10 2.30ではModを2件追加、Modを24件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Additional Entity Attributesを追加。",
+        "evidence": "Additional Entity Attributes (2.0.0+1.21.1)"
+      },
+      {
+        "category": "feature",
+        "text": "Nuggetsを追加。",
+        "evidence": "Nuggets (1.0.4.35)"
+      },
+      {
+        "category": "other",
+        "text": "All The Arcanist Gearを1.21.1-21.2.0から1.21.1-21.3.0へ更新。",
+        "evidence": "All The Arcanist Gear (1.21.1-21.2.0) -> (1.21.1-21.3.0)"
+      },
+      {
+        "category": "other",
+        "text": "Allthemodiumを2.8.8から2.8.9へ更新。",
+        "evidence": "Allthemodium (2.8.8) -> (2.8.9)"
+      },
+      {
+        "category": "other",
+        "text": "Ars Nouveauを5.3.6から5.4.1へ更新。",
+        "evidence": "Ars Nouveau (5.3.6) -> (5.4.1)"
+      },
+      {
+        "category": "other",
+        "text": "Extreme Reactorsを1.21.1-2.4.19から1.21.1-2.4.20へ更新。",
+        "evidence": "Extreme Reactors (1.21.1-2.4.19) -> (1.21.1-2.4.20)"
+      },
+      {
+        "category": "other",
+        "text": "Bookshelfを21.1.41から21.1.45へ更新。",
+        "evidence": "Bookshelf (21.1.41) -> (21.1.45)"
+      },
+      {
+        "category": "other",
+        "text": "Crash Assistantを1.2.20から1.3.0へ更新。",
+        "evidence": "Crash Assistant (1.2.20) -> (1.3.0)"
+      }
+    ]
+  },
+  "2.29": {
+    "sourceHash": "2097f090a3b794f77ef73a8a34ba946653794d633991e9a1b9d853e99147b517",
+    "title": "L Ender's CataclysmとGuideMEを追加",
+    "summary": "ATM10 2.29ではModを3件追加、Modを27件更新。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "L Ender's Cataclysmを追加。",
+        "evidence": "L_Ender's Cataclysm (1.21.1-2.44)"
+      },
+      {
+        "category": "feature",
+        "text": "GuideMEを追加。",
+        "evidence": "GuideME (2.1.0)"
+      },
+      {
+        "category": "feature",
+        "text": "lionfishapiを追加。",
+        "evidence": "lionfishapi (1.8)"
+      },
+      {
+        "category": "other",
+        "text": "Advanced AEを1.2.1-1.21.1から1.2.2-1.21.1へ更新。",
+        "evidence": "Advanced AE (1.2.1-1.21.1) -> (1.2.2-1.21.1)"
+      },
+      {
+        "category": "other",
+        "text": "AllTheCompressedを4.1.0から4.2.0へ更新。",
+        "evidence": "AllTheCompressed (4.1.0) -> (4.2.0)"
+      },
+      {
+        "category": "other",
+        "text": "Allthemodiumを2.8.7から2.8.8へ更新。",
+        "evidence": "Allthemodium (2.8.7) -> (2.8.8)"
+      },
+      {
+        "category": "other",
+        "text": "AllTheOresを3.1.5から3.1.6へ更新。",
+        "evidence": "AllTheOres (3.1.5) -> (3.1.6)"
+      },
+      {
+        "category": "other",
+        "text": "AllTheTweaksを2.5.2から2.5.3へ更新。",
+        "evidence": "AllTheTweaks (2.5.2) -> (2.5.3)"
+      }
+    ]
+  },
+  "2.28": {
+    "sourceHash": "ae1917c84ccdea3c4c58f51038bb5107e459a7a1b5496a4504ccc7f33b8e5494",
+    "title": "Mod構成の整理と20件の更新",
+    "summary": "ATM10 2.28ではModを20件更新、Modを1件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "other",
+        "text": "Ars Nouveauを5.4.0から5.3.6へ更新。",
+        "evidence": "Ars Nouveau (5.4.0) -> (5.3.6)"
+      },
+      {
+        "category": "other",
+        "text": "Compact Machinesを7.0.14から7.0.22へ更新。",
+        "evidence": "Compact Machines (7.0.14) -> (7.0.22)"
+      },
+      {
+        "category": "other",
+        "text": "Crash Assistantを1.2.18から1.2.19へ更新。",
+        "evidence": "Crash Assistant (1.2.18) -> (1.2.19)"
+      },
+      {
+        "category": "other",
+        "text": "Embeddiumを1.0.11+mc1.21.1から1.0.12+mc1.21.1へ更新。",
+        "evidence": "Embeddium (1.0.11+mc1.21.1) -> (1.0.12+mc1.21.1)"
+      },
+      {
+        "category": "other",
+        "text": "Entangledを1.3.20から1.3.20+aへ更新。",
+        "evidence": "Entangled (1.3.20) -> (1.3.20+a)"
+      },
+      {
+        "category": "other",
+        "text": "Extended Industrializationを1.11.0-beta-1.21.1から1.11.2-beta-1.21.1へ更新。",
+        "evidence": "Extended Industrialization (1.11.0-beta-1.21.1) -> (1.11.2-beta-1.21.1)"
+      },
+      {
+        "category": "other",
+        "text": "FTB Jei Extrasを21.1.4から21.1.5へ更新。",
+        "evidence": "FTB Jei Extras (21.1.4) -> (21.1.5)"
+      },
+      {
+        "category": "other",
+        "text": "Journeymapを1.21.1-6.0.0-beta.34から1.21.1-6.0.0-beta.36へ更新。",
+        "evidence": "Journeymap (1.21.1-6.0.0-beta.34) -> (1.21.1-6.0.0-beta.36)"
+      }
+    ]
+  },
+  "2.26": {
+    "sourceHash": "20f6dc7b081d89d9a3615151376d161b904736ec5be3132e5355e7bc5400a969",
+    "title": "EmbeddiumとFlux Networksを追加",
+    "summary": "ATM10 2.26ではModを6件追加、Modを41件更新、Modを4件削除。公式Changelogから、クエスト、レシピ、設定、不具合修正などの主要な変更を8件抜粋しています。",
+    "items": [
+      {
+        "category": "feature",
+        "text": "Embeddiumを追加。",
+        "evidence": "Embeddium (1.0.11+mc1.21.1)"
+      },
+      {
+        "category": "feature",
+        "text": "Flux Networksを追加。",
+        "evidence": "Flux Networks (8.0.0)"
+      },
+      {
+        "category": "feature",
+        "text": "memorysettings modを追加。",
+        "evidence": "memorysettings mod (5.6)"
+      },
+      {
+        "category": "feature",
+        "text": "Monocleを追加。",
+        "evidence": "Monocle (0.1.8)"
+      },
+      {
+        "category": "feature",
+        "text": "Nolijiumを追加。",
+        "evidence": "Nolijium (0.5.1)"
+      },
+      {
+        "category": "feature",
+        "text": "Nuggetsを追加。",
+        "evidence": "Nuggets (1.0.4.35)"
+      },
+      {
+        "category": "other",
+        "text": "Allthemodiumを2.8.6から2.8.7へ更新。",
+        "evidence": "Allthemodium (2.8.6) -> (2.8.7)"
+      },
+      {
+        "category": "other",
+        "text": "AllTheTweaksを2.5.0から2.5.2へ更新。",
+        "evidence": "AllTheTweaks (2.5.0) -> (2.5.2)"
+      }
+    ]
+  }
+}

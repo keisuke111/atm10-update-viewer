@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="ATM10の2つのバージョンを比較。Modの追加・更新・削除、日本語の主要変更と根拠原文を同じ画面で確認できます。">
+<meta name="color-scheme" content="light dark"><meta name="theme-color" content="#f5f6f3">
+<title>ATM10 Update Viewer | バージョン比較</title>
+<link rel="icon" href="data:,"><link rel="stylesheet" href="./styles.css"><script src="./app.js" type="module"></script>
+</head>
+<body>
+<a class="skip" href="#comparison">比較へスキップ</a>
+<header class="site-header">
+<a class="brand" href="./"><span class="brand-mark" aria-hidden="true">▦</span><span><strong>ATM10</strong><span class="brand-sub">UPDATE VIEWER</span></span></a>
+<span class="site-context">バージョン比較 <span class="unofficial">非公式・日本語</span></span>
+<a class="quiet-link" href="https://github.com/AllTheMods/ATM-10" target="_blank" rel="noopener noreferrer">公式GitHub ↗</a>
+</header>
+<main id="app">
+<div id="loading" class="loading" role="status">比較データを読み込んでいます…</div>
+<div id="viewer" hidden>
+<section class="version-bar" aria-label="比較するバージョン">
+<div class="version-field"><label for="from-version">比較元 <span>BEFORE</span></label><div><select id="from-version"></select><time id="from-date"></time></div></div>
+<button id="swap" class="icon-button" aria-label="比較元と比較先を入れ替える" title="比較元と比較先を入れ替える">⇄</button>
+<div class="version-field after-field"><label for="to-version">比較先 <span>AFTER</span></label><div><select id="to-version"></select><time id="to-date"></time></div></div>
+<div class="version-tools"><span id="range-label"></span><button id="source-button" class="text-button">公式Changelogを見る →</button></div>
+</section>
+<div id="notice" class="notice" role="status" hidden></div>
+<section class="overview" aria-label="日本語要約と主な変更">
+<span class="section-eyebrow">UPDATE NOTES</span><div id="overview-copy"></div>
+<button id="highlights-button" class="outline-button" aria-controls="inspector">主な変更を読む →</button>
+</section>
+<div class="workbench" id="workbench">
+<section id="comparison" class="comparison" tabindex="-1" aria-label="Modのバージョン比較">
+<div class="comparison-heading"><h1>Modの比較</h1><span id="total-label"></span><span class="comparison-hint">行を選んで根拠を確認</span></div>
+<div class="search-bar">
+<label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">Mod名検索</span><input id="mod-search" type="search" placeholder="Mod名で検索…" autocomplete="off"></label>
+<label class="switch-label"><input id="diff-only" type="checkbox" checked><span>差分だけ表示</span></label>
+</div>
+<div id="filters" class="filters" role="group" aria-label="変更種別で絞り込む"></div>
+<div class="result-bar"><span id="result-count" role="status" aria-live="polite"></span><button id="reset-filters" class="text-button" hidden>絞り込みを解除</button><label class="sort-label">並び順 <select id="sort"><option value="name">Mod名順</option><option value="status">変更種別順</option></select></label></div>
+<div id="table-scroll" class="table-scroll" tabindex="0" role="region" aria-label="Mod比較表。横にスクロールできます">
+<table class="comparison-table"><caption class="sr-only">同じModの比較元・比較先のバージョン</caption>
+<colgroup><col class="name-col"><col class="version-col"><col class="version-col"><col class="status-col"></colgroup>
+<thead><tr><th scope="col">Mod</th><th scope="col" class="before-head" id="before-heading"></th><th scope="col" class="after-head" id="after-heading"></th><th scope="col">変更</th></tr></thead><tbody id="mod-rows"></tbody>
+</table><div id="empty" class="empty" hidden></div>
+</div>
+<div class="coverage-note"><span aria-hidden="true">ⓘ</span><div>全Modの一覧ではありません。収録した変更履歴に登場し、状態を確認できるModを比較しています。「変更なし」はModバージョンの一致を示し、設定・レシピの変更は含みません。</div></div>
+</section>
+<aside id="inspector" class="inspector" aria-label="日本語説明と根拠原文" hidden>
+<div class="inspector-header"><span>DETAIL / 読解レンズ</span><button id="close-detail" class="icon-button" aria-label="詳細を閉じて比較へ戻る">×</button></div>
+<div id="detail-body" class="detail-body"></div>
+</aside>
+</div>
+</div>
+<noscript><p class="notice">比較にはJavaScriptが必要です。<a href="https://github.com/AllTheMods/ATM-10/blob/main/CHANGELOG.md">公式Changelogはこちら</a>。</p></noscript>
+</main>
+<footer>
+<div class="legal-note">
+<strong>非公式のファン制作サイトです。</strong>
+<span>これはMinecraftの公式サービスではなく、MojangまたはMicrosoftによる承認・提携はありません。All The Modsチームによる公式サイトでもありません。</span>
+<span>データ出典：<a href="https://github.com/AllTheMods/ATM-10" target="_blank" rel="noopener noreferrer">AllTheMods/ATM-10公式Changelog ↗</a>。名称・原文の権利は各権利者に帰属します。日本語解説はAIによる翻訳・編集を含む抜粋です。</span>
+<span>運営・問い合わせ：<a href="https://github.com/keisuke111/atm10-update-viewer/issues" target="_blank" rel="noopener noreferrer">keisuke111 / GitHub Issues ↗</a></span>
+</div>
+<span id="checked-at"></span>
+</footer>
+</body>
+</html>

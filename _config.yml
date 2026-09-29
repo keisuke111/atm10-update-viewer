@@ -1,0 +1,8 @@
+exclude:
+  - content
+  - scripts
+  - tests
+  - package.json
+  - package-lock.json
+  - README.md
+  - NOTICE.md
